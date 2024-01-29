@@ -1,7 +1,7 @@
 // Array for booked dates with format: 'yyyy-mm-dd'
 
 var bookedDates = ["2024-03-03", "2024-03-04", "2024-03-05", "2024-03-06", "2024-03-07", 
-"2024-03-08", "2024-03-09",
+"2024-03-08", "2024-03-09"
 ]; // Add booked dates here
 
 $(function() {
