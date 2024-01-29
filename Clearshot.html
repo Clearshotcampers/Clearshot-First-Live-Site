@@ -6,11 +6,14 @@
   <link rel="stylesheet" href="css/Clearshot.css">
   <link rel="stylesheet" href="css/Banner.css">
   <link rel="stylesheet" href="css/Navbar.css">
-  <link rel="stylesheet" href="css/Calendar.css">
+
   <meta name="robots" content="index, follow">
   <title>Test Page for Clearshot Campers</title>
   <meta name="description" content="Test page for Clearshot Campers web site">
   <meta name="keywords" content="">
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="css/DatePicker.css">
 </head>
 
 <body>
@@ -32,7 +35,7 @@
    </div>
   </div>
   <br/><br/>
-  <heading3>What We're Offering:</heading3>
+  <heading3 class="acrossPage">What We're Offering:</heading3>
   <p class="bold column">
    Our VW California is a top spec campervan.
    It features integrated heater, fridge, cooker, and four beds.
@@ -41,119 +44,17 @@
   <p class="bold column">
    At the same time, it is small enough to access idyllic and remote locations. Where will it take you?
   </p>
-  <heading3>Availability:</heading3>
+  <heading3 class="acrossPage">Availability:</heading3>
   <span id="availability"></span>
   <br />  <br />
   
-<heading2>March 2024</heading2>
-<ol class="calendar">
- <div class="week">Mon Tue Wed Thur Fri Sat Sun<span class="lineEnd"></span></div>
-<li class="friday booked"> </li>
-<li class="booked"> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li class=""> </li>
-<li class=""> </li>
-<li class=""> </li>
-<li class=""> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-</ol>
-
-<heading2>April 2024</heading2>
-<ol class="calendar">
- <div class="week">Mon Tue Wed Thur Fri Sat Sun<span class="lineEnd"></span></div>
-<li class="monday"> </li>
-<li class=""> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li class=""> </li>
-<li class=""> </li>
-<li class=""> </li>
-<li class=""> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-</ol>
-
-<heading2>May 2024</heading2>
-<ol class="calendar">
-<div class="week">Mon Tue Wed Thur Fri Sat Sun<span class="lineEnd"></span></div>
-<li class="wednesday"> </li>
-<li class=""> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li class=""></li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li class=""> </li>
-<li class=""> </li>
-<li class=""> </li>
-<li class=""> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-</ol>
-
+  <div id="datepicker" class="acrossPage"></div>
+  <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/mydates.js"></script>
 
 <p class="bold column" id="contact">Email: <a href="mailto:clearshotcampers@gmail.com?subject=Van Booking&body=I would like to book the van from [start date] to [end date]">clearshotcampers@gmail.com</a></p>
 <br /><br />
+
 </body>
 </html>

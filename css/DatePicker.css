@@ -1,0 +1,22 @@
+.acrossPage
+{
+	margin-left: 400px;
+}
+
+#datepicker 
+{
+    padding-left: 10px;
+}
+
+.booked-date  {
+    background-color: red !important;
+    opacity: 1 !important;
+}
+
+.available-date {
+    background-color: green !important;
+}
+
+.ui-datepicker-unselectable .booked-date {
+    background-color: coral !important;
+}
