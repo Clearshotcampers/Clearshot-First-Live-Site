@@ -24,7 +24,7 @@ $(function() {
 
     // Initialize  the datepicker calendar
     $("#datepicker").datepicker({
-        minDate: new Date(2024, 3, 1), // January 1, 2024
+        minDate: new Date(2024, 2, 1), // January 1, 2024
         maxDate: "+8m", // 2 years from now
         numberOfMonths: [2, 3], // 2 rows and 3 columns of months
         beforeShowDay: customDateStyles
