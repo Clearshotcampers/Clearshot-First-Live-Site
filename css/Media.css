@@ -1,0 +1,17 @@
+/* For larger screens, use row layout */
+@media (min-width: 768px) {
+    .column-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 45%; /* Adjust the width as needed */
+    }
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
